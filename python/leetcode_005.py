@@ -27,7 +27,6 @@ def longestPalindrome(s):
             start=j+1
     return s[start:start+maxlen]  
 if __name__=="__main__":
-    s="aceecabacabacdks"
-    #s="abccb"
+    s="aceecabacdks"
     ans=longestPalindrome(s)
     print ans
